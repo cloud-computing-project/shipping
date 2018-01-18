@@ -10,7 +10,7 @@ spec:
         app: shipping
     spec:
       containers:
-      - image: bozen/shippings:0.01
+      - image: bozen/shippings:0.02
         name: shippings
         env:
           - name: KUMULUZEE_DISCOVERY_CLUSTER
