@@ -8,8 +8,8 @@ spec:
   type: NodePort
   ports:
   - name: server
-    port: 8086
+    port: 8089
     protocol: TCP
-    targetPort: 8086
+    targetPort: 8089
   selector:
     app: shipping
